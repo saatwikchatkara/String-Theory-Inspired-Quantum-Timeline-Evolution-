@@ -41,20 +41,3 @@ This project demonstrates quantum computing's potential as a tool for theoretica
 * **Discover New Computational Paradigms:** Uncover novel information processing methods.
 
 This work contributes significantly to quantum simulation, pushing boundaries in physics and computation.
-"""
-    # Define the filename for the README.
-    filename = "README.md"
-
-    try:
-        # Open the file in write mode ('w').
-        # If the file doesn't exist, it will be created. If it exists, its content will be overwritten.
-        with open(filename, "w", encoding="utf-8") as f:
-            f.write(readme_content.strip()) # Use .strip() to remove leading/trailing whitespace
-
-        print(f"Successfully generated '{filename}' in the current directory.")
-        print("Remember to place your image files ('String theory inspired quantum timeline evolution_qc.jpg' and 'String theory inspired quantum timeline evolution.jpg') in the same directory for the links to work correctly on GitHub.")
-
-    except IOError as e:
-        print(f"Error writing to file '{filename}': {e}")
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
