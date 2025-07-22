@@ -1,9 +1,4 @@
-import os
 
-    # Define the content for the README.md file as a multi-line string.
-    # This content includes headings, paragraphs, and image links,
-    # all formatted using GitHub Flavored Markdown (GFM).
-    readme_content = """
 # String Theory Inspired Quantum Timeline Evolution
 
 ## Project Overview
