@@ -1,11 +1,5 @@
 import os
 
-def generate_readme_md():
-    """
-    Generates the README.md file for the 'String Theory Inspired Quantum Timeline Evolution' project.
-    This script writes the pre-defined Markdown content into a file named README.md.
-    """
-
     # Define the content for the README.md file as a multi-line string.
     # This content includes headings, paragraphs, and image links,
     # all formatted using GitHub Flavored Markdown (GFM).
